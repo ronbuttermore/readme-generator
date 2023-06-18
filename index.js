@@ -22,10 +22,47 @@ inquirer
             name: 'title',
             message: questions[0],
         },
+        {
+            type:'input',
+            name: 'description',
+            message: questions[1],
+        },
+        {
+            type:'input',
+            name: 'installation',
+            message: questions[2],
+        },
+        {
+            type:'input',
+            name: 'usage',
+            message: questions[3],
+        },
+        {
+            type:'input',
+            name: 'contribute',
+            message: questions[4],
+        },
+        {
+            type:'input',
+            name: 'test',
+            message: questions[5],
+        },
+        {
+            type:'input',
+            name: 'username',
+            message: questions[6],
+        },
+        {
+            type:'input',
+            name: 'email',
+            message: questions[7],
+        },
     ])
     .then((data) => {
-        fs.writeFile('README.md', `${data.title}`, (err) =>
-            err ? console.log(err) : console.log('Success!')
+        fs.writeFile('README.md', 
+            `# ${data.title}\n\n## Description\n\n${data.description}\n\n## Table of Contents:\n\n-[Installation](#installation)\n\n-[Usage](#usage)\n\n-[Contribute](#contribute)\n\n-[Tests](#test)\n\n\n## Installation\n\n${data.installation}\n\n## Usage\n\n${data.usage}\n\n## Contribute\n\n${data.contribute}\n\n## Tests\n\n${data.tests}\n\n## License\n\n## Questions\n\nVisit my GitHub page at https://github.com/${data.username}. \nPlease direct any additional questions to ${data.email}`, 
+            (err) =>
+                err ? console.log(err) : console.log('Success!')
         );
     })
 //function writeToFile(fileName, data) {}
