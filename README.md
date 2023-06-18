@@ -1,6 +1,6 @@
 # aef
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Description
 
@@ -37,9 +37,9 @@ undefined
 
 ## License
 
-This project is covered under the GNU General Public License v3.0
+This project is covered under the Apache License 2.0
 
 ## Questions
 
-Visit my GitHub page at https://github.com/asef. 
+Visit my GitHub page at https://github.com/aef. 
 Please direct any additional questions to aef
