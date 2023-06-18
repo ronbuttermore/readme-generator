@@ -3,6 +3,8 @@
 ## Description
 
 ## Usage
+Link to walkthrough video:
+![Walkthrough Video](https://youtu.be/7Lcqj_Pq3wE)
 
 ## License
 
