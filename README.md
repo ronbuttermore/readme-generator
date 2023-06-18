@@ -2,7 +2,10 @@
 
 ## Description
 
+This project was created to allow users to quickly create a customized README for their projects. This eliminates the need to create README files from scratch
+
 ## Usage
+You can run this program using Node.js in the terminal. Once initiated, it will provide the user with required information and ask if the user would like to proceed. If no, the program will end. If yes, the program will prompt the user for information about their project, and then create a professional README file based on the user's input.
 Link to walkthrough video:
 ![Walkthrough Video](https://youtu.be/7Lcqj_Pq3wE)
 
